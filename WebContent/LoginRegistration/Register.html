@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/MainStyle.css" /> 
+      	<link rel="scortcut icon" type="image/png" sizes="16x16" href="../Images/favicon-16x16.png">
+	</head>
+
+
+ <body>
+ <form method="POST" action="RegisterServlet" name="myform"> 
+     <table class="lecturerInfo">
+	 <tr><td class="heading" colspan="2">Enter Registration Information:</td></tr> 
+	 <tr><td class="heading2">First Name:</td><td><input type="text" name="firstnamefield" value="" required/></td></tr> 
+	 <tr><td class="heading2">Last Name: </td><td><input type="text" name="lastnamefield" value="" required/></td></tr>
+	 <tr><td class="heading2">Email: </td><td><input type="text" name="emailfield" value="" required/></td></tr>
+	 <tr><td class="heading2">Username: </td><td><input type="text" name="usernamefield" value="" required/></td></tr>
+	 <tr><td class="heading2">Password: </td><td><input type="password" name="passwordfield" value="" required/></td></tr>
+	 </table>
+		<p style="text-align: center">
+	 	<input class="button" type="submit" value="Register" />
+	 	<br/><br/>
+			Already registered!! <a class="linked" href="Login.html">Login Here</a>
+		</p>
+ </form>
+ </body>
+ 
+</html>
